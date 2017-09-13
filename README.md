@@ -5,6 +5,14 @@ use metasploit framework with your android device *Without root
 
 2)Open Termux and type these commands : 
 
+Update Termux
+```bash
+pkg update;pkg upgrade
+```
+Install git
+```bash
+apt -y install git
+```
 Download the script
 ```bash
 git clone https://github.com/DevoOverkill9/android-msf.git;cd android-msf
