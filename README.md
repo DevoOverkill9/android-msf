@@ -8,12 +8,10 @@ use metasploit framework with your android device *Without root
 Download the script
 ```bash
 git clone https://github.com/DevoOverkill9/android-msf.git;cd android-msf
-```
-Give excute permission
+```Give execute permission
 ```bash
 chmod u+x android-msf
-```
-Start the script
+```Start the script
 ```bash
 ./android-msf
 ```
