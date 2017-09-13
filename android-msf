@@ -53,8 +53,9 @@ bundle install -j5
 
 #Fixing Shebang
 $PREFIX/bin/find -type f -executable -exec termux-fix-shebang \{\} \;
-bundle
 cd metasploit-framework-4.14.28
+bundle
+cd ..
 touch msfconsole
 chmod 777 msfconsole
 echo "cd /data/data/com.termux/files/home/android-msf/metasploit-framework-4.14.28/" > msfconsole
